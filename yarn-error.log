@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/maedakeisuke/.nodebrew/node/v8.11.2/bin/node /Users/maedakeisuke/.nodebrew/current/bin/yarn init
+
+PATH: 
+  ~/.composer/vendor/bin:/Users/maedakeisuke/.nodebrew/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/maedakeisuke/.nodebrew/node/v8.11.2/lib/node_modules/yarn/lib/cli.js:131036:13)
+      at emitNone (events.js:106:13)
+      at Interface.emit (events.js:208:7)
+      at Interface._ttyWrite (readline.js:774:16)
+      at ReadStream.onkeypress (readline.js:158:10)
+      at emitTwo (events.js:126:13)
+      at ReadStream.emit (events.js:214:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1010:36)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "private": true,
+    "scripts": {
+      "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/samples": "2.1.1",
+      "expo": "^28.0.0",
+      "react": "16.3.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
+      "react-navigation": "2.3.1"
+    },
+    "devDependencies": {
+      "jest-expo": "^28.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
